@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Page</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <div class="feed-container">
+        <header class="navbar">
+            <div class="navbar-logo">
+                <h2>HowlGram</h2>
+            </div>
+
+            <nav class="navbar-menu">
+                <a href="#">🏠</a>
+                <a href="#">🔍</a>
+                <a href="#">➕</a>
+                <a href="#">❤️</a>
+                <a href="#">👤</a>
+        
+                <!-- From Uiverse.io by vinodjangid07 --> 
+                <button class="Btn logout-button">
+                
+                    <div class="sign"><svg viewBox="0 0 512 512"><path d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"></path></svg></div>
+                
+                    <div class="text">Logout</div>
+                </button>
+
+
+            </nav>
+        </header>
+        <main class="feed-posts">
+            <article class="post" data-id="1">
+                <header class="post-header">
+                    <div class="post-avatar">
+                        <img src="images/howltaylor1.jpg" alt="Howl avatar">
+                    </div>
+                    <p class="post-username">Howl Taylor</p>
+
+                    <!-- From Uiverse.io by andrew-demchenk0 --> 
+                    
+                    <div class="post-actions">
+                        <button class="follow-button"> 
+                            <span class="icon"><svg height="33" viewBox="0 0 128 128" width="33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(1 0 0 -1 594 633)" gradientUnits="userSpaceOnUse" x1="-566.711" x2="-493.288" y1="516.569" y2="621.43"><stop offset="0" stop-color="#ffb900"></stop><stop offset="1" stop-color="#9100eb"></stop></linearGradient><circle cx="64" cy="64" fill="url(#a)" r="64"></circle><g fill="#fff"><path d="m82.333 104h-36.666c-11.947 0-21.667-9.719-21.667-21.667v-36.666c0-11.948 9.72-21.667 21.667-21.667h36.666c11.948 0 21.667 9.719 21.667 21.667v36.667c0 11.947-9.719 21.666-21.667 21.666zm-36.666-73.333c-8.271 0-15 6.729-15 15v36.667c0 8.271 6.729 15 15 15h36.666c8.271 0 15-6.729 15-15v-36.667c0-8.271-6.729-15-15-15z"></path><path d="m64 84c-11.028 0-20-8.973-20-20 0-11.029 8.972-20 20-20s20 8.971 20 20c0 11.027-8.972 20-20 20zm0-33.333c-7.352 0-13.333 5.981-13.333 13.333 0 7.353 5.981 13.333 13.333 13.333s13.333-5.98 13.333-13.333c0-7.352-5.98-13.333-13.333-13.333z"></path><circle cx="85.25" cy="42.75" r="4.583"></circle></g></svg></span>
+                            <span class="text1">Follow</span>
+                            <span class="text2">1,2k</span> 
+                        </button>
+
+                        <button class="post-more">
+                            ...
+                        </button>
+                    </div>
+                </header>
+
+                <div class="post-image">
+                    <img src="images/howltaylor2.jpg" alt="Howl's image">
+                    <div class="heart">
+                        ❤️
+                    </div>
+                </div>
+
+                <div class="post-actions">
+                    <button class="post-like">🤍</button>
+                    <button class="post-comment">💬</button>
+                    <button class="post-share">📤</button>
+                </div>
+
+                <p class="post-likes">120 likes</p>
+                <p class="post-caption">
+                    <strong>Howl</strong>
+                    Today I built my first Feed.
+                </p>
+                <time class="post-time">
+                    2 hours ago
+                </time>
+
+                <!--Danh sach comments-->
+                <div class="comments">
+
+                </div>
+
+                <!--O nhap comment-->
+                <div class="comment-box">
+                    <input class="comment-input" type="text" placeholder="Write a comment...">
+                    <button class="comment-button">
+                        Post
+                    </button>
+                </div>
+                
+            </article>
+
+            
+
+
+            <article class="post" data-id="2">
+                <header class="post-header">
+                    <div class="post-avatar">
+                        <img src="images/cute_dog.jpg" alt="Golden">
+                    </div>
+                    <p class="post-username">Golden Retriever</p>
+
+                    <!-- From Uiverse.io by andrew-demchenk0 --> 
+                    <div class="post-actions">
+                        <button class="follow-button"> 
+                            <span class="icon"><svg height="33" viewBox="0 0 128 128" width="33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(1 0 0 -1 594 633)" gradientUnits="userSpaceOnUse" x1="-566.711" x2="-493.288" y1="516.569" y2="621.43"><stop offset="0" stop-color="#ffb900"></stop><stop offset="1" stop-color="#9100eb"></stop></linearGradient><circle cx="64" cy="64" fill="url(#a)" r="64"></circle><g fill="#fff"><path d="m82.333 104h-36.666c-11.947 0-21.667-9.719-21.667-21.667v-36.666c0-11.948 9.72-21.667 21.667-21.667h36.666c11.948 0 21.667 9.719 21.667 21.667v36.667c0 11.947-9.719 21.666-21.667 21.666zm-36.666-73.333c-8.271 0-15 6.729-15 15v36.667c0 8.271 6.729 15 15 15h36.666c8.271 0 15-6.729 15-15v-36.667c0-8.271-6.729-15-15-15z"></path><path d="m64 84c-11.028 0-20-8.973-20-20 0-11.029 8.972-20 20-20s20 8.971 20 20c0 11.027-8.972 20-20 20zm0-33.333c-7.352 0-13.333 5.981-13.333 13.333 0 7.353 5.981 13.333 13.333 13.333s13.333-5.98 13.333-13.333c0-7.352-5.98-13.333-13.333-13.333z"></path><circle cx="85.25" cy="42.75" r="4.583"></circle></g></svg></span>
+                            <span class="text1">Follow</span>
+                            <span class="text2">1,2k</span> 
+                        </button>
+
+                        <button class="post-more">
+                            ...
+                        </button>
+                    </div>
+                </header>
+
+                <div class="post-image">
+                    <img src="images/cute_dog2.jpg" alt="Golden's image">
+                    <div class="heart">
+                        ❤️
+                    </div>
+                </div>
+
+                <div class="post-actions">
+                    <button class="post-like">🤍</button>
+                    <button class="post-comment">💬</button>
+                    <button class="post-share">📤</button>
+                </div>
+
+                <p class="post-likes">425 likes</p>
+                <p class="post-caption">
+                    <strong>Golden</strong>
+                    Today, I just broke my mom's dishes.
+                </p>
+
+                <time class="post-time">
+                    4 hours ago
+                </time>
+                <!--Danh sach comments-->
+                <div class="comments">
+
+                </div>
+
+                <!--O nhap comment-->
+                <div class="comment-box">
+                    <input class="comment-input" type="text" placeholder="Write a comment..." >
+                    <button class="comment-button">
+                        Post
+                    </button>
+                </div>
+            </article>
+
+
+            <article class="post" data-id="3">
+                <header class="post-header">
+                    <div class="post-avatar">
+                        <img src="images/cute_cat1.jpg" alt="Catt">
+                    </div>
+                    <p class="post-username">Cat Lover</p>
+
+                    <!-- From Uiverse.io by andrew-demchenk0 --> 
+                    <div class="post-actions">
+                        <button class="follow-button"> 
+                            <span class="icon"><svg height="33" viewBox="0 0 128 128" width="33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(1 0 0 -1 594 633)" gradientUnits="userSpaceOnUse" x1="-566.711" x2="-493.288" y1="516.569" y2="621.43"><stop offset="0" stop-color="#ffb900"></stop><stop offset="1" stop-color="#9100eb"></stop></linearGradient><circle cx="64" cy="64" fill="url(#a)" r="64"></circle><g fill="#fff"><path d="m82.333 104h-36.666c-11.947 0-21.667-9.719-21.667-21.667v-36.666c0-11.948 9.72-21.667 21.667-21.667h36.666c11.948 0 21.667 9.719 21.667 21.667v36.667c0 11.947-9.719 21.666-21.667 21.666zm-36.666-73.333c-8.271 0-15 6.729-15 15v36.667c0 8.271 6.729 15 15 15h36.666c8.271 0 15-6.729 15-15v-36.667c0-8.271-6.729-15-15-15z"></path><path d="m64 84c-11.028 0-20-8.973-20-20 0-11.029 8.972-20 20-20s20 8.971 20 20c0 11.027-8.972 20-20 20zm0-33.333c-7.352 0-13.333 5.981-13.333 13.333 0 7.353 5.981 13.333 13.333 13.333s13.333-5.98 13.333-13.333c0-7.352-5.98-13.333-13.333-13.333z"></path><circle cx="85.25" cy="42.75" r="4.583"></circle></g></svg></span>
+                            <span class="text1">Follow</span>
+                            <span class="text2">1,2k</span> 
+                        </button>
+
+                        <button class="post-more">
+                            ...
+                        </button>
+                    </div>
+                </header>
+
+                <div class="post-image">
+                    <img src="images/cute_cat2.jpg" alt="Cat's image">
+                    <div class="heart">
+                        ❤️
+                    </div>
+                </div>
+
+                <div class="post-actions">
+                    <button class="post-like">🤍</button>
+                    <button class="post-comment">💬</button>
+                    <button class="post-share">📤</button>
+                </div>
+
+                <p class="post-likes">342 likes</p>
+                <p class="post-caption">
+                    <strong>Cat</strong>
+                    Today is a lovely day.
+                </p>
+                <time class="post-time">
+                    5 hours ago
+                </time>
+
+                <!--Danh sach comments-->
+                <div class="comments">
+
+                </div>
+
+                <!--O nhap comment-->
+                <div class="comment-box">
+                    <input class="comment-input" type="text" placeholder="Write a comment...">
+                    <button class="comment-button">
+                        Post
+                    </button>
+                </div>
+            </article>
+
+
+            <article class="post" data-id="4">
+                <header class="post-header">
+                    <div class="post-avatar">
+                        <img src="images/Tuong1.jpg" alt="Tuong">
+                    </div>
+                    <p class="post-username">Cậu Út</p>
+
+                    <!-- From Uiverse.io by andrew-demchenk0 --> 
+                    <div class="post-actions">
+                        <button class="follow-button"> 
+                            <span class="icon"><svg height="33" viewBox="0 0 128 128" width="33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(1 0 0 -1 594 633)" gradientUnits="userSpaceOnUse" x1="-566.711" x2="-493.288" y1="516.569" y2="621.43"><stop offset="0" stop-color="#ffb900"></stop><stop offset="1" stop-color="#9100eb"></stop></linearGradient><circle cx="64" cy="64" fill="url(#a)" r="64"></circle><g fill="#fff"><path d="m82.333 104h-36.666c-11.947 0-21.667-9.719-21.667-21.667v-36.666c0-11.948 9.72-21.667 21.667-21.667h36.666c11.948 0 21.667 9.719 21.667 21.667v36.667c0 11.947-9.719 21.666-21.667 21.666zm-36.666-73.333c-8.271 0-15 6.729-15 15v36.667c0 8.271 6.729 15 15 15h36.666c8.271 0 15-6.729 15-15v-36.667c0-8.271-6.729-15-15-15z"></path><path d="m64 84c-11.028 0-20-8.973-20-20 0-11.029 8.972-20 20-20s20 8.971 20 20c0 11.027-8.972 20-20 20zm0-33.333c-7.352 0-13.333 5.981-13.333 13.333 0 7.353 5.981 13.333 13.333 13.333s13.333-5.98 13.333-13.333c0-7.352-5.98-13.333-13.333-13.333z"></path><circle cx="85.25" cy="42.75" r="4.583"></circle></g></svg></span>
+                            <span class="text1">Follow</span>
+                            <span class="text2">1,2k</span> 
+                        </button>
+
+                        <button class="post-more">
+                            ...
+                        </button>
+                    </div>
+                </header>
+
+                <div class="post-image">
+                    <img src="images/tuong2.jpg" alt="Tuong's image">
+                    <div class="heart">
+                        ❤️
+                    </div>
+                </div>
+
+                <div class="post-actions">
+                    <button class="post-like">🤍</button>
+                    <button class="post-comment">💬</button>
+                    <button class="post-share">📤</button>
+                </div>
+
+                <p class="post-likes">242 likes</p>
+                <p class="post-caption">
+                    <strong>Cậu Út</strong>
+                    Lốp tưởng love.
+                </p>
+                <time class="post-time">
+                    16 hours ago
+                </time>
+
+                <!--Danh sach comments-->
+                <div class="comments">
+
+                </div>
+
+                <!--O nhap comment-->
+                <div class="comment-box">
+                    <input class="comment-input" type="text" placeholder="Write a comment...">
+                    <button class="comment-button">
+                        Post
+                    </button>
+                </div>
+            </article>
+
+        </main>
+    </div>
+    <script src="feed.js"></script>
+</body>
+</html>
+

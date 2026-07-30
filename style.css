@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1e2e2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.login-container, .signup-container{
+    width: 350px;
+    background: white;
+
+    padding: 30px;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-container form, .signup-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.login-container h1, .signup-container h1{
+    text-align: center;
+}
+.login-container input, .signup-container input{
+    padding: 10px;
+    font-size: 16px;
+}
+.login-container button, .signup-container button{
+    padding: 10px;
+    font-size: 16px;
+
+    background-color: #0095f6;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+.login-container button:hover, .signup-container button:hover{
+    opacity: 0.5;
+}
+
+.signup-text, .login-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link, .login-link{
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.signup-link:hover, .login-link:hover{
+    text-decoration: underline;
+}
+.forgot-password-link{
+    color: #0095f6;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.forgot-password-link:hover{
+    text-decoration: underline;
+}
