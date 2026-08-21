@@ -1,1 +1,0 @@
-HTML + CSS → JavaScript → SQL → Spring Boot là con đường mượt nhất.
