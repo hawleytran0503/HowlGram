@@ -108,7 +108,7 @@ body{
   width: 130px;
   height: 35px;
   border-radius: 30px;
-  background: rgb(209, 156, 156);
+  background: rgb(187, 188, 234);
   border: 1px #FFB700 solid;
   overflow: hidden;
 }
@@ -199,11 +199,12 @@ body{
 .post-image .heart.show{
     opacity: 1;
 }
-.post-actions button{
-    border: none;
+.post-actions .post-like, .post-comment, .post-share{
     cursor: pointer;
     font-size: 25px;
+    border: none;
     background: none;
+    
 }
 .post .post-likes{
     margin-top: 10px;
